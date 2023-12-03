@@ -4,7 +4,7 @@ import sys
 from utils.strings import chunkit, md5
 from utils import rand
 from utils.loggers import log
-import collections
+from collections.abc import Mapping
 import re
 import itertools
 import base64
